@@ -1,0 +1,11 @@
+$mainColor:rgba(252, 85, 85, 0.067);
+$secondaryColor:rgba(252, 85, 85, 0.067);
+$tertiaryColor:rgba(252, 85, 85, 0.067);
+$whiteColor:rgba(252, 85, 85, 0.067);
+$blackColor:rgba(252, 85, 85, 0.067);
+body {
+    background-color: $mainColor;
+    h5 {
+        color: $whiteColor;
+    }
+}
