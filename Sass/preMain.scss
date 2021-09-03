@@ -1,12 +1,30 @@
-$mainColor:rgba(252, 85, 85, 0.067);
-$secondaryColor:rgba(252, 85, 85, 0.067);
-$tertiaryColor:rgba(252, 85, 85, 0.067);
-$whiteColor:rgba(252, 85, 85, 0.067);
-$blackColor:rgba(252, 85, 85, 0.067);
-body {
-    background-color: $mainColor;
-    h5 {
-        color: $whiteColor;
-        background-color: $tertiaryColor;
-    }
-}
+            @import "../Sass/colorStyle.scss";
+            @import "../Sass/addedBootstrapStyle.scss";
+            body {
+                //  background-color: $mainColor;
+                //    background-color: $bgDefault;
+                header {
+                    nav {
+                        height: 72px;
+                        img {
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
+                }
+                .itemView {
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+                    border: white solid;
+                    border-radius: 25px;
+                    height: 20rem;
+                }
+                footer {
+                    margin-top: 100px;
+                    height: 20rem;
+                    //     background-color: rgb(228, 163, 255);
+                }
+            }
+            
+            #navbarNavAltMarkup {
+                padding-left: 40rem;
+            }

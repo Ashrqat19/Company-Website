@@ -80,87 +80,6 @@ a svg:focus {
   color: #12111a;
 }
 
-.navbar-default {
-  border-color: #123fd6;
-}
-.navbar-default .navbar-brand {
-  color: #12111a;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #a908be;
-}
-.navbar-default .navbar-text {
-  color: #12111a;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #12111a;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #a908be;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #a908be;
-  background-color: #123fd6;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #a908be;
-  background-color: #123fd6;
-}
-.navbar-default .navbar-toggle {
-  border-color: #123fd6;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #123fd6;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #12111a;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #12111a;
-}
-.navbar-default .nav-link {
-  color: #12111a;
-}
-.navbar-default .nav-link:hover {
-  color: #a908be;
-}
-
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #12111a;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #a908be;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #a908be;
-    background-color: #123fd6;
-  }
-}
-a,
-a svg {
-  color: #12111a;
-}
-a:hover, a:focus,
-a svg:hover,
-a svg:focus {
-  color: #a908be;
-}
-
-.activeClick {
-  color: #a908be;
-}
-.activeClick:hover, .activeClick:focus {
-  color: #12111a;
-}
-
 /*color*/
 /**/
 /*========== Font and typography ==========*/
@@ -271,26 +190,4 @@ img {
 }
 .m-b6 {
   margin-bottom: 3.5rem;
-}
-
-body header nav {
-  height: 72px;
-}
-body header nav img {
-  width: 100px;
-  height: 100px;
-}
-body .itemView {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  border: white solid;
-  border-radius: 25px;
-  height: 20rem;
-}
-body footer {
-  margin-top: 100px;
-  height: 20rem;
-}
-
-#navbarNavAltMarkup {
-  padding-left: 40rem;
-}/*# sourceMappingURL=preMain.css.map */
+}/*# sourceMappingURL=addedBootstrapStyle.css.map */
